@@ -1,0 +1,16 @@
+1. Create Laravel Projct
+2. Create Database in phpmyadmin
+3. Edit n .env file
+	DB_CONNECTION=mysql
+	DB_HOST=127.0.0.1
+	DB_PORT=3306
+	DB_DATABASE=ams
+	DB_USERNAME=root
+	DB_PASSWORD=
+4. Command for make model,resource controller,table -
+	php artisan make:model ModelName -mcr
+5. In table add field in up function (look at attached file)
+6. Run command -
+ 	php artisan migrate
+7. In model fetch data table (look at attached file)
+8. Then according to the operations (insert,read,delete,update) write code in controller and blade file (look at attached file)
